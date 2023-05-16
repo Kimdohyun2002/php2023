@@ -52,6 +52,22 @@ body.windows {
 .mt60 {margin-top: 60px !important;}
 .mt70 {margin-top: 70px !important;}
 
+.ml10 {margin-left: 10px !important;}
+.ml20 {margin-left: 20px !important;}
+.ml30 {margin-left: 30px !important;}
+.ml40 {margin-left: 40px !important;}
+.ml50 {margin-left: 50px !important;}
+.ml60 {margin-left: 60px !important;}
+.ml70 {margin-left: 70px !important;}
+
+.mr10 {margin-right: 10px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr40 {margin-right: 40px !important;}
+.mr50 {margin-right: 50px !important;}
+.mr60 {margin-right: 60px !important;}
+.mr70 {margin-right: 70px !important;}
+
 .mb10 {margin-bottom: 10px !important;}
 .mb20 {margin-bottom: 20px !important;}
 .mb30 {margin-bottom: 30px !important;}
@@ -122,6 +138,27 @@ body.windows {
     text-align: center;
     cursor: pointer;
 }
+.btnStyle4 {   
+    display: inline-block;
+    padding: 0.8em 2em;
+    margin: 0 0.5em;
+    background-color: var(--color__black);
+    color: var(--color__white);
+    border-radius: 100px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.btnStyle5 {
+    border: 1px solid var(--bg__black);
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-right: 10px;
+}
+.btnStyle5:hover {
+    background-color: var(--bg__black);
+    color: var(--color__white);
+}
 
 
 /* input Style */
@@ -130,6 +167,14 @@ body.windows {
     width: 100%;
     border-radius: 5px;
     padding: 1em 2em;
+    border: 0;
+    font-weight: 300;
+}
+.inputStyle2 {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 0.8em 2em;
     border: 0;
     font-weight: 300;
 }
